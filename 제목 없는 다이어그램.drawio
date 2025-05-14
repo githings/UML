@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5" pages="4">
   <diagram name="Page-1" id="gYzwpgFo8rnDMeRRXH4o">
     <mxGraphModel dx="2146" dy="1144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -586,6 +586,188 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="270" y="710" as="sourcePoint" />
             <mxPoint x="350" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YCOCjFXcAfuWmpi6GgCW" name="8-3통신_택시">
+    <mxGraphModel dx="670" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KaXS2vpkAB08d8qj2YCk-1" value=": App" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-1" value="2 : 택시 기사 호출" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="159" as="sourcePoint" />
+            <mxPoint x="350" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-2" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KaXS2vpkAB08d8qj2YCk-1" target="6l4O-UgyvrivHx3kC-ot-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="380" as="sourcePoint" />
+            <mxPoint x="180" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-3" value=": 택시 기사" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-4" value=": 고객" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-5" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KaXS2vpkAB08d8qj2YCk-1" target="6l4O-UgyvrivHx3kC-ot-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="185" y="220" as="sourcePoint" />
+            <mxPoint x="185" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-6" value="3 : 호출 수락" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="220" as="sourcePoint" />
+            <mxPoint x="260" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-7" value="1 : 출발지, 도착지 입력" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="200" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-8" value="4 : 택시 기사 정보 전송" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="300" as="sourcePoint" />
+            <mxPoint x="200" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-9" value=": 고객" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="610" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-10" value=": 고객" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="610" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-11" value="2 : 상품선택" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="302" y="510" as="sourcePoint" />
+            <mxPoint x="392" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-12" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6l4O-UgyvrivHx3kC-ot-9" target="6l4O-UgyvrivHx3kC-ot-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="670" as="sourcePoint" />
+            <mxPoint x="460" y="670.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-13" value="5 : 보험가입" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="540" as="sourcePoint" />
+            <mxPoint x="390" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-14" value="1 : 상품 설명" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="568.57" as="sourcePoint" />
+            <mxPoint x="300" y="568.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-15" value="3 : 가입 조건 확인" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="594.2900000000001" as="sourcePoint" />
+            <mxPoint x="300" y="594.2900000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-16" value="4 : 요금 확인" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="620.0000000000001" as="sourcePoint" />
+            <mxPoint x="300" y="620.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-32" value=": 사용자" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="850" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-33" value=": 물품 보관함" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="850" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-34" value="2 : 상품선택" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="302" y="750" as="sourcePoint" />
+            <mxPoint x="392" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-35" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6l4O-UgyvrivHx3kC-ot-32" target="6l4O-UgyvrivHx3kC-ot-33">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="910" as="sourcePoint" />
+            <mxPoint x="460" y="910.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-36" value="5 : 보험가입" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="780" as="sourcePoint" />
+            <mxPoint x="390" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-37" value="1 : 상품 설명" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="808.57" as="sourcePoint" />
+            <mxPoint x="300" y="808.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-38" value="3 : 가입 조건 확인" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="834.2900000000001" as="sourcePoint" />
+            <mxPoint x="300" y="834.2900000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-39" value="4 : 요금 확인" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="860.0000000000001" as="sourcePoint" />
+            <mxPoint x="300" y="860.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-48" value=": 클라우드 인터페이스" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="131" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-49" value="2 : 택시 기사 호출" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="900" y="130" as="sourcePoint" />
+            <mxPoint x="990" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-50" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6l4O-UgyvrivHx3kC-ot-48" target="6l4O-UgyvrivHx3kC-ot-52">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="850" y="351" as="sourcePoint" />
+            <mxPoint x="820" y="281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-51" value=": 서버" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="131" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-52" value=": 사용자" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="321" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-53" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6l4O-UgyvrivHx3kC-ot-48" target="6l4O-UgyvrivHx3kC-ot-51">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="825" y="191" as="sourcePoint" />
+            <mxPoint x="825" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-54" value="3 : 호출 수락" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="980" y="191" as="sourcePoint" />
+            <mxPoint x="900" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-55" value="1 : 출발지, 도착지 입력" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="840" y="261" as="sourcePoint" />
+            <mxPoint x="840" y="211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6l4O-UgyvrivHx3kC-ot-56" value="4 : 택시 기사 정보 전송" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=0;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="840" y="271" as="sourcePoint" />
+            <mxPoint x="840" y="311" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
